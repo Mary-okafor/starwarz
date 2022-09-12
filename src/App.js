@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import OverviewPage from "./pages/OverviewPage";
+import StarshipsPage from "./pages/StarshipsPage";
+import PeoplePage from "./pages/PeoplePage";
+import SpeciesPage from "./pages/SpeciesPage";
+import OverviewDetails from "./pages/OverviewDetails";
+import PeopleDetails from "./pages/OverviewDetails";
+import SpeciesDetails from "./pages/OverviewDetails";
+import StarshipsDetails from "./pages/OverviewDetails";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Overview" element={<OverviewPage />} />
+        <Route path="/Overview:title" element={<OverviewDetails/>} />
+        <Route path="/Starships" element={<StarshipsPage />} />
+        <Route path="/Starships:title" element={<StarshipsDetails/>} />
+        <Route path="/People" element={<PeoplePage />} />
+        <Route path="/People:title" element={<PeopleDetails/>} />
+        <Route path="/Species" element={<SpeciesPage />} />
+        <Route path="/Species:title" element={<SpeciesDetails/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

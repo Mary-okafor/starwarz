@@ -1,0 +1,17 @@
+.navigationContainer {
+  @apply w-1/6 h-screen fixed bg-enyata-blue pt-12;
+}
+
+.navigationList {
+  @apply  pb-10;
+}
+.navigationList2 {
+  @apply  pb-20 
+}
+.navigationSpan {
+  @apply text-base text-enyata-white font-semibold;
+}
+.navHref {
+  @apply flex gap-6 items-center hover:bg-enyata-lightBlue focus:outline-none focus:bg-enyata-lightBlue rounded px-16 py-4 ;
+}
+

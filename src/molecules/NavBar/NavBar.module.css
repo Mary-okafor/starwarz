@@ -1,0 +1,6 @@
+.navBarContainer {
+    @apply flex gap-6
+}
+.navBarWrapper {
+    @apply flex justify-end py-4 pr-20 gap-3 items-center shadow-md
+}

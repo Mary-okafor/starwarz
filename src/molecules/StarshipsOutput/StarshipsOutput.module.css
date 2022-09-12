@@ -1,0 +1,24 @@
+.starshipsOutputContainer {
+    @apply mt-20
+}
+.starshipsOutputText {
+    @apply text-enyata-ash101 text-base font-normal pb-8
+}
+.starshipsOutputTable {
+    @apply w-11/12 table-auto  border  rounded border-enyata-ash102 
+}
+.starshipsOutputThead {
+    @apply border-b border-enyata-lightBlack  text-base font-medium text-enyata-ash101
+}
+.starshipsInput {
+    @apply w-4 h-4
+}
+.starshipTr {
+    @apply  text-base text-enyata-ash103  border-b border-enyata-lightBlack hover:shadow-lg rounded
+}
+.starshipsTh {
+    @apply py-4 text-left
+}
+.starshipTh2 {
+    @apply py-6 text-left
+}

@@ -1,0 +1,51 @@
+.loginContainer {
+    @apply  flex my-auto
+}
+
+.formContainer {
+    @apply  px-8 box-border rounded-lg border border-enyata-ash102  pt-6 
+}
+.labelContainer {
+    @apply flex justify-center pb-8 mt-[60px]
+}
+.labelContainer2 {
+    @apply flex justify-center pb-8 
+}
+.loginFormLabel {
+    @apply relative
+}
+
+.loginFormInput {
+    @apply h-10 w-72 rounded px-6 text-base text-enyata-darkBlue font-medium border-2 border-enyata-ash101 outline-none transition duration-200 focus:border-enyata-lightBlue
+}
+.loginFormSpan {
+    @apply text-base text-enyata-ash104 font-medium  absolute left-0 mx-6 pt-2 transition duration-200 
+}
+.loginFormText {
+    @apply text-2xl text-enyata-ash103 font-semibold ml-5 pb-2
+}
+.loginFormText2 {
+    @apply text-base font-medium text-enyata-ash104 ml-5
+}
+.loginFormBtn {
+    @apply h-10 w-72 rounded-md bg-enyata-lightBlue text-enyata-white text-base font-medium hover:bg-enyata-blue
+}
+.btnDiv {
+    @apply flex justify-center pb-4 
+}
+.loginFormPasswordText {
+    @apply text-sm font-normal text-enyata-lightBlue flex justify-center pb-20
+}
+.loginFormFooterContainer {
+    @apply text-enyata-darkenBlue text-xs font-normal flex justify-center indent-1 pb-14
+}
+.loginFormFooterText {
+    @apply underline
+}
+.loginFormErrorText {
+    @apply text-base font-medium -mt-7 pb-5 text-enyata-red
+}
+.loginFormFocus {
+    @apply  text-enyata-ash bg-enyata-white transform -translate-y-5 -translate-x-4 scale-75
+
+}

@@ -1,0 +1,24 @@
+.filmOutputTable  {
+    @apply w-11/12 table-auto  border  rounded border-enyata-ash102 space-x-7
+}
+.filmsOutputContainer{
+    @apply mt-20
+}
+.filmsInput {
+    @apply w-4 h-4
+}
+.filmsOutputThead {
+    @apply border-b border-enyata-lightBlack  text-base font-medium text-enyata-ash101
+}
+.filmsOutputText {
+    @apply text-enyata-ash101 text-base font-normal pb-8
+}
+.filmsOutputTr {
+    @apply text-base text-enyata-ash103  border-b border-enyata-lightBlack  hover:shadow-lg rounded
+}
+.filmsOutputTh {
+    @apply py-6 text-left
+}
+.filmsOutputTh2 {
+    @apply py-4 text-left
+}

@@ -1,0 +1,12 @@
+.navTapAreaContainer {
+    @apply rounded-md shadow-md w-1/6 mt-20 px-4 py-5 pb-6
+}
+.navTapSecContainer {
+    @apply flex justify-between pb-8
+}
+.navTapSpan {
+    @apply text-base font-bold text-enyata-ash103
+}
+.navTapSummary {
+    @apply text-[9px]  font-normal text-enyata-green
+}
